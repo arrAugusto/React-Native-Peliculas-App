@@ -6,7 +6,14 @@ import Carousel from 'react-native-snap-carousel';
 import { HorizontalSlider } from '../components/HorizontalSlider';
 import { MovieCard } from '../components/MovieCard';
 import { useMovies } from '../hooks/useMovies'
+import { LogBox } from 'react-native'
 
+
+LogBox.ignoreLogs([
+    'ViewPropTypes will be removed from React Native. Migrate to ViewPropTypes exported from \'deprecated-react-native-prop-types\'.',
+    'NativeBase: The contrast ratio of',
+    "[react-native-gesture-handler] Seems like you\'re using an old API with gesture components, check out new Gestures system!",
+])
 
 const {width: windowsWith} = Dimensions.get('window');
 
