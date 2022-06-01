@@ -16,7 +16,7 @@ export const GradientBackground = ({children}: Props) => {
   useEffect(() => {
     fadeIn( ()=>{
       setPrevMainColors(colors);
-      fideOut();
+      fideOut(0);
     } );
   }, [colors])
   
