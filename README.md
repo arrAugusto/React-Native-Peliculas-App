@@ -2,6 +2,7 @@
 Aplicación consume una Api Rest de uso free limitado por numero de transacciones, (https://api.themoviedb.org/3/movie)
 Desarrollo una aplicación de cines, donde muestra (Cartelera, peliculas populares, top de peliculas y proximamente en cine...) 
 
+0. git clone https://github.com/arrAugusto/React-Native-Peliculas-App
 1. npm install
 2. npx react-native run-android
 
